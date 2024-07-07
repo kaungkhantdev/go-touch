@@ -10,7 +10,7 @@ import (
 )
 
 func NewServer() {
-	TestRoute();
+	RegisterRoutes();
 
 	port := os.Getenv("PORT")
 	fmt.Println("GO is running on: http://localhost"+port)
